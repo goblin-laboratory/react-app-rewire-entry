@@ -21,6 +21,7 @@ const {
   rewireDevServerkEntryConfig,
 } = rewireEntry([paths.appIndexJs, paths.appAdminJs]);
 
+
 module.exports = {
   webpack: (config, env) => {
     config = rewireWebpackEntryConfig(config, env);
@@ -34,4 +35,14 @@ module.exports = {
     };
   },
 };
+```
+或者使用下面的方式初始化
+```javascript
+const {
+  rewireWebpackEntryConfig,
+  rewireDevServerkEntryConfig,
+} = rewireEntry({
+  index: paths.appIndexJs,
+  admin: paths.appAdminJs,
+});
 ```
