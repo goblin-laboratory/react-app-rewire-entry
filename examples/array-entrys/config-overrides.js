@@ -1,18 +1,3 @@
-# react-app-rewire-entry
-Configure Entry in Create React App without ejecting
-
-## Install
-
-```bash
-$ yarn add https://github.com/goblin-laboratory/react-app-rewire-entry.git
-```
-
-## Add it to your project
-
-* [Rewire your app](https://github.com/timarney/react-app-rewired#how-to-rewire-your-create-react-app-project) than modify `config-overrides.js`
-
-```javascript
-/* config-overrides.js */
 const paths = require('react-scripts/config/paths');
 const rewireEntry = require('react-app-rewire-entry');
 
@@ -36,14 +21,3 @@ module.exports = {
     };
   },
 };
-```
-或者使用下面的方式初始化
-```javascript
-const {
-  rewireWebpackEntryConfig,
-  rewireDevServerkEntryConfig,
-} = rewireEntry({
-  index: paths.appIndexJs,
-  admin: paths.appAdminJs,
-});
-```
