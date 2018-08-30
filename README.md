@@ -4,7 +4,7 @@ Configure Entry in Create React App without ejecting
 ## Install
 
 ```bash
-$ yarn add https://github.com/goblin-laboratory/react-app-rewire-entry.git
+$ yarn add react-app-rewire-entry --dev
 ```
 
 ## Add it to your project

@@ -3,6 +3,20 @@
   "version": "1.0.0",
   "description": "Configure Entry in Create React App without ejecting",
   "main": "index.js",
+  "keywords": [
+    "create-react-app",
+    "react-app-rewired",
+    "react-app-rewire-entry"
+  ],
+  "homepage": "https://github.com/goblin-laboratory/react-app-rewire-entry",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goblin-laboratory/react-app-rewire-entry.git"
+  },
+  "authors": [
+    "xiaosongxiaosong <kunkkaco@gmail.com> (https://github.com/xiaosongxiaosong)"
+  ],
+  "bugs": "https://github.com/goblin-laboratory/react-app-rewire-entry/issues",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +26,8 @@
   },
   "peerDependencies": {
     "react-app-rewired": "^1.5.2"
+  },
+  "devDependencies": {
+    "lerna": "^3.2.1"
   }
 }
