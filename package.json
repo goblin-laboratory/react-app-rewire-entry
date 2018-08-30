@@ -1,6 +1,6 @@
 {
   "name": "react-app-rewire-entry",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Configure Entry in Create React App without ejecting",
   "main": "index.js",
   "keywords": [
