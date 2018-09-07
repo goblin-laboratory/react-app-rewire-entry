@@ -18,6 +18,7 @@
   ],
   "bugs": "https://github.com/goblin-laboratory/react-app-rewire-entry/issues",
   "scripts": {
+    "publish": "yarn lerna publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
