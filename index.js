@@ -47,7 +47,7 @@ const getNameByEntrySrc = (entrySrc) => {
 };
 
 const rewireEntryConfig = (entry, config, env) => {
-  const entryDependences = [require.resolve('react-scripts/config/polyfills')];
+  const entryDependences = [];
   if ('development' !== env) {
     entryDependences.push(require.resolve('react-dev-utils/webpackHotDevClient'));
   }
